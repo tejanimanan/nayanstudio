@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nayan studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lilita+One&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!---gallary style-->
+  <style>
+    .font {
+
+      font-weight: bolder;
+      font-family: 'Dancing Script', cursive;
+
+
+    }
+
+    figure {
+      margin: 15px 0;
+    }
+
+    figcaption {
+      text-align: center;
+    }
+
+    .grayscale {
+      filter: grayscale(0);
+    }
+
+    .grayscale:hover {
+      filter: grayscale(50%)
+    }
+  </style>
+  <!---gallary style-->
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg   text-end">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 fw-semibold font" href="#"> <img src="/image/nayanlogo1.png.jpg" hight="50px"
+          width="150px" alt="">Nayan studio jambala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <span class="bg-danger fs-2">
+        <div class="collapse navbar-collapse  show justify-content-lg-end ul1 " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link fw-bold p-3 active bg-dark-subtle fs-4" aria-current="page" href="#"><i
+                  class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold active p-3  bg-dark-subtle fs-4" aria-current="page" href="#"> <i
+                    class="fa-solid fa-address-card"></i>About us</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-dark-subtle fw-bold p-3 fs-4" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-camera"></i>Our services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">pre-wedding</a></li>
+                  <li><a class="dropdown-item" href="#">wedding </a></li>
+                  <li><a class="dropdown-item" href="#">Baby shoot</a></li>
+                  <li><a class="dropdown-item" href="#">Product shoot</a></li>
+                  <li><a class="dropdown-item" href="#">Engagement shoot</a></li>
+                  <li><a class="dropdown-item" href="#"> Haldi Rasam shoot</a></li>
+                  <li><a class="dropdown-item" href="#">Bridal shoot</a></li>
+                  <li><a class="dropdown-item" href="#">Corporate Event</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle bg-dark-subtle fw-bold p-3 fs-4"
+                  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-image"></i> Gallary
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">image</a></li>
+                  <li><a class="dropdown-item" href="#">video</a></li>
+                </ul>
+              </li>
+              <li class="nav-item bg-dark-subtle">
+                <a class="nav-link active fw-bold p-3 fs-4" aria-current="page" href="#"><i
+                    class="fa-solid fa-phone"></i>Contact us</a>
+              </li>
+
+            </ul>
+
+        </div>
+      </span>
+    </div>
+  </nav>
+
+  <!-- ======= slider ======= -->
+  <div class="row">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/image/wedding/wed09.jpg" height="450PX" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-2">We Focus On Your Emotion</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/image/babyshoot/bs04.jpg" height="450PX" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/image/wedding/wed08.jpg" height="450PX" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <p class="fs-3 fs text-light text-bg-dark bg-opacity-50 ">Weddings are India’s favourite celebrations. They
+              are very special occasions
+              for couples and their families.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- ======= ABOUT US ======= -->
+
+  <div class="container">
+    <div class="row ">
+      <h1 class="text-center mt-3 mb-0">About us</h1>
+
+      <div class="row py-5 ">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-5 col-sm-4">
+              <img src="/image/wedding/wed02.jpg" class="" width="1350px" alt="card-horizontal-image">
+            </div>
+            <div class="col-7 col-sm-8 py-5">
+              <div class="card-body">
+                <br /><br> <a href="#">
+                  <p class="card-title text-dark fs-1 text-decoration-underline">About us</p>
+                </a>
+                <p class="card-text text-dark text-decoration-none bg-opacity-25 justify-content  "> Nayanstudio.com
+                  powered by imaging experts Hetal & Viral Gohil is the most
+                  innovative Wedding photography company. Started way back in 1994 as a small time photo studio at
+                  Kamrej, Surat now has its presence in both Surat and Mumbai as one of the most organised players
+                  in wedding photography business with a large team of wedding professionals ranging from
+                  photographers to cinematographers, album designers to video editors, and has also done
+                  international destination weddings in Bangkok and Phuket.
+
+                  We have tried to emerge as a picture company which delivers moments in a unique flavour which
+                  makes them feel like yesterday. Every member of our team is devoted to give you candid and
+                  narrative moments which weave a story around your moment.
+
+                </p>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+  <!-- ======= ABOUT US COMPLETE ======= -->
+
+  <!-- =======OUR SERVICE ======= -->
+  <section class="bg-l pt-3 pb-5 shadow-sm">
+    <div class="container">
+
+      <div class="jumbotron">
+        <h1 class="text-center">OUR SERVICES</h1>
+        <p class="text-center"></p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure>
+            <a href="#">
+              <img src="/image/babyshoot/bs02.jpg" class="img-thumbnail grayscale" width="500px"></a>
+            <figcaption> <a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">
+                BabyShoot
+              </a> </figcaption>
+
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure>
+            <a href="#">
+              <img src="/image/bridal/bridal01.jpg" class="img-thumbnail grayscale"></a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning w-100 text-bg-primary fs-4">
+                Bridal </a></figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure><a href="#">
+              <img src="/image/event/event01.jpg" class="img-thumbnail grayscale" width="290px"></a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">Event</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure> <a href="#">
+              <img src="/image/haldirasm/haldi01.jpg" class="img-thumbnail grayscale"></a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">
+                Haldirasm </a></figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure> <a href="#">
+              <img src="/image/pre-wedding/prewed01.jpg" class="img-thumbnail grayscale"></a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">Pre-Wedding
+              </a></figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure> <a href="#">
+              <img src="/image/productshoot/pro01.jpg" class="img-thumbnail grayscale"> </a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">
+                productshoot </a></figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure> <a href="#">
+              <img src="/image/sagai/sagai01.jpg" class="img-thumbnail grayscale"> </a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4">
+                Engagement</a> </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <figure> <a href="#">
+              <img src="/image/wedding/wed01.jpg" class="img-thumbnail grayscale"> </a>
+            <figcaption><a href="#"
+                class="text-capitalize text-decoration-none btn btn-outline-warning text-bg-primary w-100 fs-4"> Wedding
+              </a></figcaption>
+          </figure>
+        </div>
+      </div>
+  </section>
+  <!-- ======= OUR SERVICE COMPLETE ======= -->
+  <!-- ======= testimaial ======= -->
+  <div class="row">
+
+    <section class="bg-dark-subtle pt-3 pb-5 shadow-sm">
+      <div class="container">
+        <div class="row pb-2">
+          <div class="col-12">
+            <h3 class="text-uppercase border-bottom mb-4 pb-2 text-center fs-1">Our user</h3>
+          </div>
+        </div>
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="/image/user/aadi2.jpg" class="m-auto py-3" width="300px" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title bg-primary-subtle py-3 m-auto w-100 text-center">Aaditydan Gadhavi</h5>
+                <p class="card-text mb-4">I was really mesmerized by the video of 15 minutes that was made by Nayan
+                  Studio. I watch that video twice or thrice every month. The personal touch and the emtions that were
+                  captured is incredible. Thanks to Hetal Gohil, Viral Gohil and team Nayan.
+                </p>
+                <a href="#" class="btn btn-primary text-white mt-auto align-self-start">Book now</a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="/image/user/paraspandhi2.webp" class="py-5 m-auto" width="350px" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title bg-primary-subtle py-3 m-auto w-100 text-center"">Paras pandhi</h5>
+                  <p class=" card-text mb-4">I use to display my Audio Visuals before my show, and they are all done by
+                  the team of Nayan Studio, the outstanding AV for my movie "Manjhi The Mountain" was also prepared by
+                  them. Thank you so much Nayan Studio and team for making all my shows succesful.
+                  </p>
+                  <a href="#" class="btn btn-primary text-white mt-auto align-self-start">Book now</a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="/image/user/gj-5.png" class="m-auto py-3" width="300px" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title bg-primary-subtle py-3 m-auto w-100 text-center">Gj-5 Fashion</h5>
+                <p class="card-text mb-4">Entire team were absolutely wonderful to work with. They were highly
+                  proficient and the pictures came out absolutely amazing. They are absolutely phenomenal. You took with
+                  your camera is the imagination you create with realty.
+                </p>
+                <a href="#" class="btn btn-primary text-white mt-auto align-self-start">Book now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+
+  <!-- =======testimaial======= -->
+  <!-- =======contact us======= -->
+  <div class="row">
+    <section class="bg-secondary pt-3 pb-5 shadow-sm">
+      <h1 class="text-dark fw-bold fs-1 text-capitalize text-center text-decoration-underline">contact us</h1>
+      <br>
+      <p class="py-lg-5 text-center fw-bold fs-3">Connecting Souls. Connecting Stories.</p>
+
+      <section class="text-center  fs-1 ">
+
+        <i class="fa-brands fa-facebook p-5"></i>
+        <a href="https://www.instagram.com/nayanstudio.8073/" class="text-bg-secondary text-dark">
+
+      <i class="fa-brands fa-square-instagram p-5"></i> 
+        </a>
+        <i class="fa-brands fa-twitter p-5"></i>
+        <i class="fa-brands fa-linkedin p-5"></i>
+        <i class="fa-brands fa-telegram p-5"></i>
+      </section>
+
+
+      <section class=" bg-secondary text-center">
+
+        <div class="d-lg-flex justify-content-center">
+
+          <i class="fa-solid fa-phone fs-1 p-5"> <br> <span class="fs-5 fw-normal">Contact us </span></i>
+          <i class="fa-solid fa-house-chimney fs-1 p-5"> <br> <span class="fs-5 fw-normal">Visit us</span></i>
+          <i class="fa-solid fa-envelope fs-1 p-5"> <br> <span class="fs-5 fw-normal">Email</span></i>
+        </div>
+
+
+        <div class="d-lg-flex justify-content-center">
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          <span class="p-4 fw-bolder"> +91 9898666545 </span>
+          <span class="p-4 fw-bolder">
+            Nayan studio jambala
+          </span>
+          <span class="p-4 fw-bolder">
+            nayanstudio8073@gmail.com
+          </span>
+        </div>
+      </section>
+
+  </div>
+
+
+
+  <!-- =======contact us======= -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1eb5f37e38.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
